@@ -1,0 +1,29 @@
+{
+  "name": "vuex-make-request-store",
+  "version": "1.0.0",
+  "description": "Utilitário vuex de gerenciamento do estado de requests HTTP baseado em Promises",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sysvale/vuex-make-request-store.git"
+  },
+  "keywords": [
+    "request",
+    "vuex",
+    "store"
+  ],
+  "author": "Gabriel Gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sysvale/vuex-make-request-store/issues"
+  },
+  "homepage": "https://github.com/Sysvale/vuex-make-request-store#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
