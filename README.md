@@ -36,7 +36,7 @@ export default {
 
 `meuService.js`
 ```javascript
-import makeRequestStore from '<path>/makeRequestStore';
+import makeRequestStore from 'vuex-make-request-store';
 
 import {
 	meuService,
