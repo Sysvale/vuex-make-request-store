@@ -17,7 +17,10 @@ export default (module) => {
 							commit(`${name}Success`);
 							return data;
 						})
-						.catch(error => commit(`${name}Failure`, error));
+						.catch((error) => {
+							commit(`${name}Failure`, error);
+							throw error;
+						});
 				},
 			},
 
