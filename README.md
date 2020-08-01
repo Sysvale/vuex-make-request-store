@@ -5,6 +5,36 @@ Utilitário vuex de gerenciamento do estado de requests HTTP baseado em Promises
 
 Em sua store, crie um novo arquivo, importe o service que realiza sua request e passe como parâmetro para a função makeRequestStore como um objeto. Veja o exemplo a seguir:
 
+`store.js`
+```javascript
+import Vue from 'vue';
+import Vuex from 'vuex';
+
+import requests from './requests';
+
+Vue.use(Vuex);
+
+export default new Vuex.Store({
+	modules: {
+		requests,
+	},
+});
+```
+
+`requests.js`
+```javascript
+import meuService from './meuService';
+
+export default {
+	namespaced: true,
+
+	modules: {
+		meuService,
+	},
+};
+```
+
+`meuService.js`
 ```javascript
 import makeRequestStore from '<path>/makeRequestStore';
 
@@ -35,7 +65,7 @@ import { mapState, mapActions } from 'vuex';
 
 export default {
 	computed: {
-		...mapState('requests', {
+		...mapState('requests/meuService', {
 			loadingMeuService: ({ meuService }) => meuService.isFetching,
 			failedMeuService: ({ meuService }) => meuService.hasFailed,
 			succeededMeuService: ({ meuService }) => meuService.hasSucceeded,
@@ -43,7 +73,7 @@ export default {
 	},
 
 	methods: {
-		...mapActions('requests', [
+		...mapActions('requests/meuService', [
 			'meuService',
 		]),
 	},
