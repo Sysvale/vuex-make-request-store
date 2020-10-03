@@ -4,7 +4,7 @@
   "description": "Utilitário vuex de gerenciamento do estado de requests HTTP baseado em Promises",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack"
   },
   "repository": {
@@ -23,6 +23,10 @@
   },
   "homepage": "https://github.com/Sysvale/vuex-make-request-store#readme",
   "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.4.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   }
