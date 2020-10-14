@@ -7,7 +7,7 @@ Clone o repositório, vá ao diretório do projeto e em seguida execute `npm run
 
 ### Executando testes
 
-Após o passo de [Instalação](#instalacao), em seu terminal execute `npm run test`
+Após o passo de [Instalação](/#instalacao), em seu terminal, execute `npm run test`
 
 ### Como utilizar
 
@@ -48,7 +48,7 @@ export default {
 };
 ```
 
-Desse modo, caso hajam outros endpoints da API de posts, basta apenas adicioná-los ao `services/Posts.js`, então importá-los no `store/requests/posts.js` e inserí-los no array de modulos.
+Desse modo, caso hajam outros endpoints da API de posts, basta apenas adicioná-los ao `services/Posts.js`, então importá-los no `store/requests/posts.js` e inserí-los no array de módulos.
 
 Feito isso, vamos unificar as stores dos recursos:
 
@@ -65,7 +65,7 @@ export default {
 };
 ```
 
-Assim, se houverem outras stores de outros recursos, por exemplo `comments`, é só importá-la e colocá-la nos modulos.
+Assim, se houverem outras stores de outros recursos, por exemplo `comments`, é só importá-la e colocá-la nos módulos.
 
 Por fim, na store de sua aplicação, importe a store de requests:
 
