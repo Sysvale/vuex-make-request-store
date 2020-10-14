@@ -7,7 +7,7 @@ Clone o repositório, vá ao diretório do projeto e em seguida execute `npm run
 
 ### Executando testes
 
-Após o passo de [Instalação](https://github.com/Sysvale/vuex-make-request-store#instala%C3%A7%C3%A3o), em seu terminal, execute `npm run test`
+Após o passo de [Instalação](#instala%C3%A7%C3%A3o), em seu terminal, execute `npm run test`
 
 ### Como utilizar
 
