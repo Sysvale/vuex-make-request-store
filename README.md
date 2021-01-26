@@ -1,6 +1,7 @@
 # vuex-make-request-store
 Utilitário vuex de gerenciamento do estado de requests HTTP baseado em Promises
 
+## Contribuindo
 ### Instalação
 
 Clone o repositório, vá ao diretório do projeto e em seguida execute `npm run install` em seu terminal.
@@ -9,7 +10,9 @@ Clone o repositório, vá ao diretório do projeto e em seguida execute `npm run
 
 Após o passo de [Instalação](#instala%C3%A7%C3%A3o), em seu terminal, execute `npm run test`
 
-### Como utilizar
+## Como utilizar
+
+Realize a instalação em seu projeto com `npm i @sysvale/vuex-make-request-store`
 
 Assumimos que você possui um conhecimento prévio em aplicações [Vue](https://vuejs.org/) e em [Vuex](https://vuex.vuejs.org/).
 
