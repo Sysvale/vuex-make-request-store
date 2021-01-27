@@ -1,6 +1,6 @@
 {
   "name": "@sysvale/vuex-make-request-store",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utilitário vuex de gerenciamento do estado de requests HTTP baseado em Promises",
   "main": "dist/main.js",
   "scripts": {
