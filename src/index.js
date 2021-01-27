@@ -1,7 +1,7 @@
 import { initialState } from './requestsStates';
 import makeMutations from './makeMutations';
 
-export default (module) => {
+export default function makeRequestStore(module) {
 	const name = Object.keys(module)[0];
 
 	return {
