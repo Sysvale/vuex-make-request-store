@@ -31,7 +31,7 @@ O primeiro passo é criar um módulo que gerencie essa store desses recursos:
 
 `store/requests/posts`
 ```javascript
-import makeRequestStore from 'vuex-make-request-store';
+import makeRequestStore from '@sysvale/vuex-make-request-store';
 
 import {
 	getPosts,
