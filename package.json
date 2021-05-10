@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack"
+    "build": "parcel build ./src/index.js --no-cache"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,6 @@
     "@babel/preset-env": "^7.11.5",
     "babel-jest": "^26.3.0",
     "jest": "^26.4.2",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "parcel-bundler": "^1.12.5"
   }
 }
